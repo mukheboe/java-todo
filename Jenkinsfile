@@ -42,7 +42,7 @@ post {
                       <p><i>(Build log is attached.)</i></p>
                     """,
                 subject: "Status: 'SUCCESS' -Job \'${env.JOB_NAME}:${env.BUILD_NUMBER}\'", 
-                to: 'YOUREMAIL@gmail.com'
+                to: 'wanambukoe@gmail.com'
         }
         failure {
             emailext attachLog: true, 
